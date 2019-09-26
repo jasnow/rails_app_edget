@@ -43,8 +43,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'sorbet', :group => :development
-gem 'sorbet-runtime'
-gem 'sorbet-rails'
-gem 'dalli' # Needed by sorbet.
-gem 'redis' # Needed by sorbet.
+gem 'tapioca', require: false, group: :development
+#gem 'dalli'
+#gem 'redis'
+
