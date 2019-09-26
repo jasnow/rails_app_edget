@@ -44,6 +44,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'tapioca', require: false, group: :development
-#gem 'dalli'
+gem 'dalli'
 #gem 'redis'
-
