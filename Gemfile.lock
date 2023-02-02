@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: d7d93faacfe0ca3297a47f676772828d7210b9bc
+  revision: f98dda8e1412888190e3dc402788b59a4dff43d3
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
@@ -189,14 +189,14 @@ GEM
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
     ruby-progressbar (1.11.0)
-    sorbet (0.5.10644)
-      sorbet-static (= 0.5.10644)
-    sorbet-runtime (0.5.10644)
-    sorbet-static (0.5.10644-universal-darwin-16)
-    sorbet-static (0.5.10644-x86_64-linux)
-    sorbet-static-and-runtime (0.5.10644)
-      sorbet (= 0.5.10644)
-      sorbet-runtime (= 0.5.10644)
+    sorbet (0.5.10647)
+      sorbet-static (= 0.5.10647)
+    sorbet-runtime (0.5.10647)
+    sorbet-static (0.5.10647-universal-darwin-16)
+    sorbet-static (0.5.10647-x86_64-linux)
+    sorbet-static-and-runtime (0.5.10647)
+      sorbet (= 0.5.10647)
+      sorbet-runtime (= 0.5.10647)
     spoom (1.1.15)
       sorbet (>= 0.5.10187)
       sorbet-runtime (>= 0.5.9204)
