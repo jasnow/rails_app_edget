@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 08f0b74da4fc7eaa7b06fac0bf181e8922f51b0a
+  revision: c703db086a467ffe5f479a03232327406fd42f03
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
@@ -98,6 +98,9 @@ GEM
   specs:
     ast (2.4.2)
     builder (3.2.4)
+    bundler-audit (0.9.1)
+      bundler (>= 1.2.0, < 3)
+      thor (~> 1.0)
     byebug (11.1.3)
     concurrent-ruby (1.2.0)
     connection_pool (2.3.0)
@@ -189,6 +192,8 @@ GEM
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
     ruby-progressbar (1.11.0)
+    ruby_audit (2.2.0)
+      bundler-audit (~> 0.9.0)
     sorbet (0.5.10648)
       sorbet-static (= 0.5.10648)
     sorbet-runtime (0.5.10648)
@@ -244,6 +249,7 @@ DEPENDENCIES
   listen
   puma
   rails!
+  ruby_audit
   sqlite3
   standard
   tapioca
