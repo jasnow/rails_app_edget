@@ -1,4 +1,4 @@
-name: "Easy" Rails Workflow
+name: "Easy" Rails Workflow/v2
 
 on:
   push:
