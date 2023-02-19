@@ -15,16 +15,18 @@ jobs:
 
     steps:
       - name: 
-       uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: 
         uses: ruby/setup-ruby@ee2113536afb7f793eed4ce60e8d3b26db912da4 # v1.127.0
         with:
           bundler-cache: true
 
-      - name: run: bin/rails db:schema:load
+      - name: 
+        run: bin/rails db:schema:load
 
-      - name: run: bin/rake
+      - name:
+        run: bin/rake
 
   lint:
     runs-on: ubuntu-latest
@@ -36,4 +38,3 @@ jobs:
         uses: ruby/setup-ruby@ee2113536afb7f793eed4ce60e8d3b26db912da4 # v1.127.0
         with:
           bundler-cache: true
-  
