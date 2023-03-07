@@ -50,3 +50,5 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "tapioca", require: false, group: :development
 gem "dalli"
 # gem 'redis'
+
+gem 'simplecov', require: false, group: :test
