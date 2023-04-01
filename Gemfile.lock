@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 08203b8099a94282358cf25e92f259fb16b799f3
+  revision: c567850476dc443563b9be93a129eb09601e25af
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
@@ -244,7 +244,7 @@ GEM
       thor (>= 0.19.2)
     sqlite3 (1.6.2-x86_64-darwin)
     sqlite3 (1.6.2-x86_64-linux)
-    standard (1.25.4)
+    standard (1.25.5)
       language_server-protocol (~> 3.17.0.2)
       rubocop (~> 1.48.1)
       rubocop-performance (~> 1.16.0)
