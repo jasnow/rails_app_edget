@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: bcd19d95d8b0e4a6239fb4a2437296547375563c
+  revision: c7f06b5113d7ec09e9345d009f8a60e0957dd99f
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
@@ -288,7 +288,7 @@ GEM
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     yard (0.9.26)
-    yard-sorbet (0.8.0)
+    yard-sorbet (0.8.1)
       sorbet-runtime (>= 0.5)
       yard (>= 0.9)
     zeitwerk (2.6.7)
