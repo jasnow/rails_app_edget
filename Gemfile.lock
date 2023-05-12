@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 2d069be22bdfa5dcd0b75aa43189e17d384287a1
+  revision: 7afcd2b1b21397d17b818d4f8f04086414806142
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
@@ -90,7 +90,7 @@ GIT
       irb
       rackup (>= 1.0.0)
       rake (>= 12.2)
-      thor (~> 1.0)
+      thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
 
 GEM
@@ -128,9 +128,9 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    loofah (2.21.1)
+    loofah (2.21.2)
       crass (~> 1.0.2)
-      nokogiri (>= 1.5.9)
+      nokogiri (>= 1.12.0)
     mail (2.8.1)
       mini_mime (>= 0.1.1)
       net-imap
@@ -150,9 +150,9 @@ GEM
       net-protocol
     netrc (0.11.0)
     nio4r (2.5.9)
-    nokogiri (1.14.3-x86_64-darwin)
+    nokogiri (1.14.4-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.14.3-x86_64-linux)
+    nokogiri (1.14.4-x86_64-linux)
       racc (~> 1.4)
     parallel (1.23.0)
     parser (3.2.2.1)
@@ -219,14 +219,14 @@ GEM
     slim (5.1.0)
       temple (~> 0.10.0)
       tilt (>= 2.0.6, < 2.2)
-    sorbet (0.5.10818)
-      sorbet-static (= 0.5.10818)
-    sorbet-runtime (0.5.10818)
-    sorbet-static (0.5.10818-universal-darwin-16)
-    sorbet-static (0.5.10818-x86_64-linux)
-    sorbet-static-and-runtime (0.5.10818)
-      sorbet (= 0.5.10818)
-      sorbet-runtime (= 0.5.10818)
+    sorbet (0.5.10821)
+      sorbet-static (= 0.5.10821)
+    sorbet-runtime (0.5.10821)
+    sorbet-static (0.5.10821-universal-darwin-16)
+    sorbet-static (0.5.10821-x86_64-linux)
+    sorbet-static-and-runtime (0.5.10821)
+      sorbet (= 0.5.10821)
+      sorbet-runtime (= 0.5.10821)
     spektr (0.4.1)
       erubi
       haml
@@ -271,7 +271,7 @@ GEM
       thor (>= 1.2.0)
       yard-sorbet
     temple (0.10.0)
-    thor (1.2.1)
+    thor (1.2.2)
     tilt (2.1.0)
     timeout (0.3.2)
     tty-color (0.6.0)
