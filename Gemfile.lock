@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 54ec908a2dbe344bf27d4171324a6a6146130e81
+  revision: 66099147482ea431febf20936cec903f197d24be
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
@@ -173,8 +173,9 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.5.0)
-      loofah (~> 2.19, >= 2.19.1)
+    rails-html-sanitizer (1.6.0)
+      loofah (~> 2.21)
+      nokogiri (~> 1.14)
     rainbow (3.1.1)
     rake (13.0.6)
     rb-fsevent (0.11.2)
@@ -219,14 +220,14 @@ GEM
     slim (5.1.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.10845)
-      sorbet-static (= 0.5.10845)
-    sorbet-runtime (0.5.10845)
-    sorbet-static (0.5.10845-universal-darwin-16)
-    sorbet-static (0.5.10845-x86_64-linux)
-    sorbet-static-and-runtime (0.5.10845)
-      sorbet (= 0.5.10845)
-      sorbet-runtime (= 0.5.10845)
+    sorbet (0.5.10847)
+      sorbet-static (= 0.5.10847)
+    sorbet-runtime (0.5.10847)
+    sorbet-static (0.5.10847-universal-darwin-16)
+    sorbet-static (0.5.10847-x86_64-linux)
+    sorbet-static-and-runtime (0.5.10847)
+      sorbet (= 0.5.10847)
+      sorbet-runtime (= 0.5.10847)
     spektr (0.4.1)
       erubi
       haml
@@ -245,7 +246,7 @@ GEM
       thor (>= 0.19.2)
     sqlite3 (1.6.3)
       mini_portile2 (~> 2.8.0)
-    standard (1.28.3)
+    standard (1.28.4)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
       rubocop (~> 1.50.2)
@@ -270,7 +271,7 @@ GEM
       spoom (~> 1.2.0, >= 1.2.0)
       thor (>= 1.2.0)
       yard-sorbet
-    temple (0.10.1)
+    temple (0.10.2)
     thor (1.2.2)
     tilt (2.1.0)
     timeout (0.3.2)
