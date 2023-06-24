@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 5899adad4f1bc5885e8eeb84a5a291ab6f35f38b
+  revision: 5eccc6a165933c25742caef3d5f17ff09bcce09b
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
@@ -268,7 +268,7 @@ GEM
     strings-ansi (0.2.0)
     syntax_tree (6.1.1)
       prettier_print (>= 1.2.0)
-    tapioca (0.11.6)
+    tapioca (0.11.7)
       bundler (>= 2.2.25)
       netrc (>= 0.11.0)
       parallel (>= 1.21.0)
