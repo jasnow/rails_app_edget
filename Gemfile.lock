@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 50e3ae083683a8a5e38fee4d7952e1576e3ffc31
+  revision: 7d49d7bd7527dccdc3b819bd9a99d3270961c835
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
@@ -121,7 +121,7 @@ GEM
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     io-console (0.6.0)
-    irb (1.7.2)
+    irb (1.7.3)
       reline (>= 0.3.6)
     json (2.6.3)
     language_server-protocol (3.17.0.3)
@@ -224,14 +224,14 @@ GEM
     slim (5.1.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.10911)
-      sorbet-static (= 0.5.10911)
-    sorbet-runtime (0.5.10911)
-    sorbet-static (0.5.10911-universal-darwin-16)
-    sorbet-static (0.5.10911-x86_64-linux)
-    sorbet-static-and-runtime (0.5.10911)
-      sorbet (= 0.5.10911)
-      sorbet-runtime (= 0.5.10911)
+    sorbet (0.5.10913)
+      sorbet-static (= 0.5.10913)
+    sorbet-runtime (0.5.10913)
+    sorbet-static (0.5.10913-universal-darwin-16)
+    sorbet-static (0.5.10913-x86_64-linux)
+    sorbet-static-and-runtime (0.5.10913)
+      sorbet (= 0.5.10913)
+      sorbet-runtime (= 0.5.10913)
     spektr (0.4.1)
       erubi
       haml
@@ -270,7 +270,7 @@ GEM
     strings-ansi (0.2.0)
     syntax_tree (6.1.1)
       prettier_print (>= 1.2.0)
-    tapioca (0.11.7)
+    tapioca (0.11.8)
       bundler (>= 2.2.25)
       netrc (>= 0.11.0)
       parallel (>= 1.21.0)
