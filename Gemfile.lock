@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 455e922b49c5de92882d10783c3014f6bf34a146
+  revision: 3bdd57fba6cacdef06d57c27c60de663a5be85be
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
@@ -224,14 +224,14 @@ GEM
     slim (5.1.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.10931)
-      sorbet-static (= 0.5.10931)
-    sorbet-runtime (0.5.10931)
-    sorbet-static (0.5.10931-universal-darwin-16)
-    sorbet-static (0.5.10931-x86_64-linux)
-    sorbet-static-and-runtime (0.5.10931)
-      sorbet (= 0.5.10931)
-      sorbet-runtime (= 0.5.10931)
+    sorbet (0.5.10932)
+      sorbet-static (= 0.5.10932)
+    sorbet-runtime (0.5.10932)
+    sorbet-static (0.5.10932-universal-darwin-16)
+    sorbet-static (0.5.10932-x86_64-linux)
+    sorbet-static-and-runtime (0.5.10932)
+      sorbet (= 0.5.10932)
+      sorbet-runtime (= 0.5.10932)
     spektr (0.4.1)
       erubi
       haml
@@ -302,7 +302,7 @@ GEM
       diff-lcs (~> 1.3)
       parser (>= 3.2.0)
     webrick (1.8.1)
-    websocket-driver (0.7.5)
+    websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     yard (0.9.34)
