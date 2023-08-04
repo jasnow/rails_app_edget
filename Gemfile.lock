@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 147a71579065c1537af5aedb38d18f01bfd371a3
+  revision: a167350acab290fa717f5385ddcdfa93272d1dfc
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
@@ -27,7 +27,7 @@ GIT
       net-imap
       net-pop
       net-smtp
-      rails-dom-testing (~> 2.0)
+      rails-dom-testing (~> 2.2)
     actionpack (7.1.0.alpha)
       actionview (= 7.1.0.alpha)
       activesupport (= 7.1.0.alpha)
@@ -35,7 +35,7 @@ GIT
       rack (>= 2.2.4)
       rack-session (>= 1.0.1)
       rack-test (>= 0.6.3)
-      rails-dom-testing (~> 2.0)
+      rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
     actiontext (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
@@ -48,7 +48,7 @@ GIT
       activesupport (= 7.1.0.alpha)
       builder (~> 3.1)
       erubi (~> 1.11)
-      rails-dom-testing (~> 2.0)
+      rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
     activejob (7.1.0.alpha)
       activesupport (= 7.1.0.alpha)
@@ -173,7 +173,7 @@ GEM
     rackup (2.1.0)
       rack (>= 3)
       webrick (~> 1.8)
-    rails-dom-testing (2.1.1)
+    rails-dom-testing (2.2.0)
       activesupport (>= 5.0.0)
       minitest
       nokogiri (>= 1.6)
@@ -224,14 +224,14 @@ GEM
     slim (5.1.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.10946)
-      sorbet-static (= 0.5.10946)
-    sorbet-runtime (0.5.10946)
-    sorbet-static (0.5.10946-universal-darwin-16)
-    sorbet-static (0.5.10946-x86_64-linux)
-    sorbet-static-and-runtime (0.5.10946)
-      sorbet (= 0.5.10946)
-      sorbet-runtime (= 0.5.10946)
+    sorbet (0.5.10948)
+      sorbet-static (= 0.5.10948)
+    sorbet-runtime (0.5.10948)
+    sorbet-static (0.5.10948-universal-darwin-16)
+    sorbet-static (0.5.10948-x86_64-linux)
+    sorbet-static-and-runtime (0.5.10948)
+      sorbet (= 0.5.10948)
+      sorbet-runtime (= 0.5.10948)
     spektr (0.4.1)
       erubi
       haml
