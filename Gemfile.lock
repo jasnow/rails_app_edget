@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 099f979dc72a0c284d27e581a4e8ec5c9fe1cfb2
+  revision: 131d3be2c4cde6028d35e84c292b2ab1d2f3f041
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
@@ -241,14 +241,14 @@ GEM
     slim (5.1.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11010)
-      sorbet-static (= 0.5.11010)
-    sorbet-runtime (0.5.11010)
-    sorbet-static (0.5.11010-universal-darwin)
-    sorbet-static (0.5.11010-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11010)
-      sorbet (= 0.5.11010)
-      sorbet-runtime (= 0.5.11010)
+    sorbet (0.5.11011)
+      sorbet-static (= 0.5.11011)
+    sorbet-runtime (0.5.11011)
+    sorbet-static (0.5.11011-universal-darwin)
+    sorbet-static (0.5.11011-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11011)
+      sorbet (= 0.5.11011)
+      sorbet-runtime (= 0.5.11011)
     spektr (0.4.1)
       erubi
       haml
@@ -268,10 +268,10 @@ GEM
       thor (>= 0.19.2)
     sqlite3 (1.6.4)
       mini_portile2 (~> 2.8.0)
-    standard (1.31.0)
+    standard (1.31.1)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
-      rubocop (~> 1.56.0)
+      rubocop (~> 1.56.2)
       standard-custom (~> 1.0.0)
       standard-performance (~> 1.2)
     standard-custom (1.0.2)
