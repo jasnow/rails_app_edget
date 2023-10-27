@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: ea4c48ad3979c8f6688339c62a4a9c3aea9f9a68
+  revision: 392e5efb71c891868f63e95e944b01ebeb476ff5
   specs:
     actioncable (7.2.0.alpha)
       actionpack (= 7.2.0.alpha)
@@ -170,6 +170,7 @@ GEM
     pastel (0.8.0)
       tty-color (~> 0.5)
     prettier_print (1.2.1)
+    prism (0.15.1)
     psych (5.1.1.1)
       stringio
     puma (6.4.0)
@@ -195,9 +196,9 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rbi (0.1.1)
+    rbi (0.1.2)
+      prism (>= 0.15.1)
       sorbet-runtime (>= 0.5.9204)
-      yarp (>= 0.11.0)
     rdoc (6.5.0)
       psych (>= 4.0.0)
     regexp_parser (2.8.2)
@@ -216,7 +217,7 @@ GEM
       rubocop-ast (>= 1.28.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
-    rubocop-ast (1.29.0)
+    rubocop-ast (1.30.0)
       parser (>= 3.2.1.0)
     rubocop-performance (1.19.1)
       rubocop (>= 1.7.0, < 2.0)
@@ -237,14 +238,14 @@ GEM
     slim (5.1.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11094)
-      sorbet-static (= 0.5.11094)
-    sorbet-runtime (0.5.11094)
-    sorbet-static (0.5.11094-universal-darwin)
-    sorbet-static (0.5.11094-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11094)
-      sorbet (= 0.5.11094)
-      sorbet-runtime (= 0.5.11094)
+    sorbet (0.5.11097)
+      sorbet-static (= 0.5.11097)
+    sorbet-runtime (0.5.11097)
+    sorbet-static (0.5.11097-universal-darwin)
+    sorbet-static (0.5.11097-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11097)
+      sorbet (= 0.5.11097)
+      sorbet-runtime (= 0.5.11097)
     spektr (0.4.1)
       erubi
       haml
@@ -319,7 +320,6 @@ GEM
     yard-sorbet (0.8.1)
       sorbet-runtime (>= 0.5)
       yard (>= 0.9)
-    yarp (0.13.0)
     zeitwerk (2.6.12)
 
 PLATFORMS
