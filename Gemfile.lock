@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 994ceea92a2758ef1b2971afc2888476e9ba1d02
+  revision: bbc6230ae7a708750a9bc14102bd4627ba85cd1a
   specs:
     actioncable (7.2.0.alpha)
       actionpack (= 7.2.0.alpha)
@@ -263,7 +263,7 @@ GEM
       sorbet-static-and-runtime (>= 0.5.10187)
       syntax_tree (>= 6.1.1)
       thor (>= 0.19.2)
-    sqlite3 (1.6.7)
+    sqlite3 (1.6.8)
       mini_portile2 (~> 2.8.0)
     standard (1.31.2)
       language_server-protocol (~> 3.17.0.2)
