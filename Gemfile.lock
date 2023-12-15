@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: eb32f1ec40d2a355dfb3f4c4ef358917de32e26c
+  revision: 9064735ec5cd3c679f8ffabc42532dd85223af58
   specs:
     actioncable (7.2.0.alpha)
       actionpack (= 7.2.0.alpha)
@@ -170,7 +170,7 @@ GEM
     pastel (0.8.0)
       tty-color (~> 0.5)
     prettier_print (1.2.1)
-    prism (0.18.0)
+    prism (0.19.0)
     psych (5.1.1.1)
       stringio
     puma (6.4.0)
@@ -196,8 +196,8 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rbi (0.1.5)
-      prism (>= 0.18.0, < 0.19)
+    rbi (0.1.6)
+      prism (>= 0.18.0, < 0.20)
       sorbet-runtime (>= 0.5.9204)
     rdoc (6.6.1)
       psych (>= 4.0.0)
@@ -237,14 +237,14 @@ GEM
     slim (5.2.0)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11152)
-      sorbet-static (= 0.5.11152)
-    sorbet-runtime (0.5.11152)
-    sorbet-static (0.5.11152-universal-darwin)
-    sorbet-static (0.5.11152-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11152)
-      sorbet (= 0.5.11152)
-      sorbet-runtime (= 0.5.11152)
+    sorbet (0.5.11155)
+      sorbet-static (= 0.5.11155)
+    sorbet-runtime (0.5.11155)
+    sorbet-static (0.5.11155-universal-darwin)
+    sorbet-static (0.5.11155-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11155)
+      sorbet (= 0.5.11155)
+      sorbet-runtime (= 0.5.11155)
     spektr (0.4.1)
       erubi
       haml
