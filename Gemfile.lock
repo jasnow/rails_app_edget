@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 9064735ec5cd3c679f8ffabc42532dd85223af58
+  revision: 4876fbd00772149cd3e3cc9482e775aed611747b
   specs:
     actioncable (7.2.0.alpha)
       actionpack (= 7.2.0.alpha)
@@ -127,7 +127,7 @@ GEM
       tilt
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    io-console (0.7.0)
+    io-console (0.7.1)
     irb (1.10.1)
       rdoc
       reline (>= 0.3.8)
@@ -163,7 +163,7 @@ GEM
     nokogiri (1.15.5)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    parallel (1.23.0)
+    parallel (1.24.0)
     parser (3.2.2.4)
       ast (~> 2.4.1)
       racc
@@ -199,7 +199,7 @@ GEM
     rbi (0.1.6)
       prism (>= 0.18.0, < 0.20)
       sorbet-runtime (>= 0.5.9204)
-    rdoc (6.6.1)
+    rdoc (6.6.2)
       psych (>= 4.0.0)
     regexp_parser (2.8.3)
     reline (0.4.1)
@@ -237,14 +237,14 @@ GEM
     slim (5.2.0)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11155)
-      sorbet-static (= 0.5.11155)
-    sorbet-runtime (0.5.11155)
-    sorbet-static (0.5.11155-universal-darwin)
-    sorbet-static (0.5.11155-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11155)
-      sorbet (= 0.5.11155)
-      sorbet-runtime (= 0.5.11155)
+    sorbet (0.5.11156)
+      sorbet-static (= 0.5.11156)
+    sorbet-runtime (0.5.11156)
+    sorbet-static (0.5.11156-universal-darwin)
+    sorbet-static (0.5.11156-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11156)
+      sorbet (= 0.5.11156)
+      sorbet-runtime (= 0.5.11156)
     spektr (0.4.1)
       erubi
       haml
@@ -344,4 +344,4 @@ RUBY VERSION
    ruby 3.3.0.rc1
 
 BUNDLED WITH
-   2.5.0.dev
+   2.5.1
