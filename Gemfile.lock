@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 8ac2af29ad7dc8c86bfb569e3375d8c1cd58a323
+  revision: 1ea796d6a887ddb6fd7a2395399ae35871aeb00c
   specs:
     actioncable (7.2.0.alpha)
       actionpack (= 7.2.0.alpha)
@@ -181,7 +181,7 @@ GEM
     prism (0.19.0)
     psych (5.1.2)
       stringio
-    puma (6.4.0)
+    puma (6.4.1)
       nio4r (~> 2.0)
     racc (1.7.3)
     rack (3.0.8)
@@ -245,14 +245,14 @@ GEM
     slim (5.2.0)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11164)
-      sorbet-static (= 0.5.11164)
-    sorbet-runtime (0.5.11164)
-    sorbet-static (0.5.11164-universal-darwin)
-    sorbet-static (0.5.11164-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11164)
-      sorbet (= 0.5.11164)
-      sorbet-runtime (= 0.5.11164)
+    sorbet (0.5.11170)
+      sorbet-static (= 0.5.11170)
+    sorbet-runtime (0.5.11170)
+    sorbet-static (0.5.11170-universal-darwin)
+    sorbet-static (0.5.11170-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11170)
+      sorbet (= 0.5.11170)
+      sorbet-runtime (= 0.5.11170)
     spektr (0.4.1)
       erubi
       haml
