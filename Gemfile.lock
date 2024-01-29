@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 351a8d9bc99e69cc8d1ced86dc1d523e2dc51985
+  revision: cf26c5482924babca573e6c01594d77e3321ae58
   specs:
     actioncable (7.2.0.alpha)
       actionpack (= 7.2.0.alpha)
@@ -107,7 +107,8 @@ GEM
     concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
     crass (1.0.6)
-    dalli (3.2.6)
+    dalli (3.2.7)
+      base64
     date (3.3.4)
     docile (1.4.0)
     drb (2.2.0)
