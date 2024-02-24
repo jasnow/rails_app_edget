@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: cb47c12aa5ec907204c9e9c26fd57a86d2f0d86f
+  revision: 47300002db11d67d7b35103f5c429dad7dacdacd
   specs:
     actioncable (7.2.0.alpha)
       actionpack (= 7.2.0.alpha)
@@ -159,6 +159,8 @@ GEM
     nokogiri (1.16.2)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
+    nokogiri (1.16.2-aarch64-linux)
+      racc (~> 1.4)
     nokogiri (1.16.2-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.2-x86_64-darwin)
@@ -240,14 +242,15 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11266)
-      sorbet-static (= 0.5.11266)
-    sorbet-runtime (0.5.11266)
-    sorbet-static (0.5.11266-universal-darwin)
-    sorbet-static (0.5.11266-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11266)
-      sorbet (= 0.5.11266)
-      sorbet-runtime (= 0.5.11266)
+    sorbet (0.5.11267)
+      sorbet-static (= 0.5.11267)
+    sorbet-runtime (0.5.11267)
+    sorbet-static (0.5.11267-aarch64-linux)
+    sorbet-static (0.5.11267-universal-darwin)
+    sorbet-static (0.5.11267-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11267)
+      sorbet (= 0.5.11267)
+      sorbet-runtime (= 0.5.11267)
     spektr (0.4.1)
       erubi
       haml
@@ -267,6 +270,7 @@ GEM
       thor (>= 0.19.2)
     sqlite3 (1.7.2)
       mini_portile2 (~> 2.8.0)
+    sqlite3 (1.7.2-aarch64-linux)
     sqlite3 (1.7.2-arm64-darwin)
     sqlite3 (1.7.2-x86_64-darwin)
     sqlite3 (1.7.2-x86_64-linux)
@@ -329,6 +333,7 @@ GEM
     zeitwerk (2.6.13)
 
 PLATFORMS
+  aarch64-linux
   arm64-darwin
   ruby
   universal-darwin
