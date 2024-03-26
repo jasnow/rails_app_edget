@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 246b3b609b130072ea009b3f2b74e603e52ac850
+  revision: e9b61852343c83365aa73db6abcfae1e5b31272f
   specs:
     actioncable (7.2.0.alpha)
       actionpack (= 7.2.0.alpha)
@@ -205,7 +205,7 @@ GEM
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
     regexp_parser (2.9.0)
-    reline (0.4.3)
+    reline (0.5.0)
       io-console (~> 0.5)
     rexml (3.2.6)
     rubocop (1.62.1)
@@ -292,13 +292,13 @@ GEM
     strings-ansi (0.2.0)
     syntax_tree (6.2.0)
       prettier_print (>= 1.2.0)
-    tapioca (0.12.0)
+    tapioca (0.13.0)
       bundler (>= 2.2.25)
       netrc (>= 0.11.0)
       parallel (>= 1.21.0)
       rbi (>= 0.1.4, < 0.2)
-      sorbet-static-and-runtime (>= 0.5.10820)
-      spoom (~> 1.2.0, >= 1.2.0)
+      sorbet-static-and-runtime (>= 0.5.11087)
+      spoom (>= 1.2.0)
       thor (>= 1.2.0)
       yard-sorbet
     temple (0.10.3)
