@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 41d867d5b1f74a36c3b06c5e511eb795ba2ee402
+  revision: 93df871020950b67256d0b4182bf8664c0187bcc
   specs:
     actioncable (7.2.0.alpha)
       actionpack (= 7.2.0.alpha)
@@ -155,16 +155,16 @@ GEM
       net-protocol
     netrc (0.11.0)
     nio4r (2.7.1)
-    nokogiri (1.16.3)
+    nokogiri (1.16.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.16.3-aarch64-linux)
+    nokogiri (1.16.4-aarch64-linux)
       racc (~> 1.4)
-    nokogiri (1.16.3-arm64-darwin)
+    nokogiri (1.16.4-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.3-x86_64-darwin)
+    nokogiri (1.16.4-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.3-x86_64-linux)
+    nokogiri (1.16.4-x86_64-linux)
       racc (~> 1.4)
     parallel (1.24.0)
     parser (3.3.0.5)
@@ -239,15 +239,15 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11338)
-      sorbet-static (= 0.5.11338)
-    sorbet-runtime (0.5.11338)
-    sorbet-static (0.5.11338-aarch64-linux)
-    sorbet-static (0.5.11338-universal-darwin)
-    sorbet-static (0.5.11338-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11338)
-      sorbet (= 0.5.11338)
-      sorbet-runtime (= 0.5.11338)
+    sorbet (0.5.11340)
+      sorbet-static (= 0.5.11340)
+    sorbet-runtime (0.5.11340)
+    sorbet-static (0.5.11340-aarch64-linux)
+    sorbet-static (0.5.11340-universal-darwin)
+    sorbet-static (0.5.11340-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11340)
+      sorbet (= 0.5.11340)
+      sorbet-runtime (= 0.5.11340)
     spektr (0.4.1)
       erubi
       haml
