@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 57cbc2e6ccd0a1095a6bbab38bcc3270555339a7
+  revision: adf0c733399d5d410c61cc423941c99846604676
   specs:
     actioncable (7.2.0.alpha)
       actionpack (= 7.2.0.alpha)
@@ -239,15 +239,15 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11349)
-      sorbet-static (= 0.5.11349)
-    sorbet-runtime (0.5.11349)
-    sorbet-static (0.5.11349-aarch64-linux)
-    sorbet-static (0.5.11349-universal-darwin)
-    sorbet-static (0.5.11349-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11349)
-      sorbet (= 0.5.11349)
-      sorbet-runtime (= 0.5.11349)
+    sorbet (0.5.11350)
+      sorbet-static (= 0.5.11350)
+    sorbet-runtime (0.5.11350)
+    sorbet-static (0.5.11350-aarch64-linux)
+    sorbet-static (0.5.11350-universal-darwin)
+    sorbet-static (0.5.11350-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11350)
+      sorbet (= 0.5.11350)
+      sorbet-runtime (= 0.5.11350)
     spektr (0.4.1)
       erubi
       haml
@@ -265,12 +265,14 @@ GEM
       prism (>= 0.19.0)
       sorbet-static-and-runtime (>= 0.5.10187)
       thor (>= 0.19.2)
-    sqlite3 (1.7.3)
+    sqlite3 (2.0.0)
       mini_portile2 (~> 2.8.0)
-    sqlite3 (1.7.3-aarch64-linux)
-    sqlite3 (1.7.3-arm64-darwin)
-    sqlite3 (1.7.3-x86_64-darwin)
-    sqlite3 (1.7.3-x86_64-linux)
+    sqlite3 (2.0.0-aarch64-linux-gnu)
+    sqlite3 (2.0.0-aarch64-linux-musl)
+    sqlite3 (2.0.0-arm64-darwin)
+    sqlite3 (2.0.0-x86_64-darwin)
+    sqlite3 (2.0.0-x86_64-linux-gnu)
+    sqlite3 (2.0.0-x86_64-linux-musl)
     standard (1.35.1)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
@@ -329,12 +331,16 @@ GEM
 
 PLATFORMS
   aarch64-linux
+  aarch64-linux-gnu
+  aarch64-linux-musl
   arm64-darwin
   ruby
   universal-darwin
   x86_64-darwin
   x86_64-darwin-16
   x86_64-linux
+  x86_64-linux-gnu
+  x86_64-linux-musl
 
 DEPENDENCIES
   byebug
