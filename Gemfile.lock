@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: be0cb4e8f9aa0b105ddd035061202a5d23491b5a
+  revision: a27a1751cfd499f69499e943f12e3400b55a323e
   specs:
     actioncable (7.2.0.alpha)
       actionpack (= 7.2.0.alpha)
@@ -203,7 +203,7 @@ GEM
       sorbet-runtime (>= 0.5.9204)
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
-    regexp_parser (2.9.0)
+    regexp_parser (2.9.1)
     reline (0.5.6)
       io-console (~> 0.5)
     rexml (3.2.6)
