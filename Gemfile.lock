@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 72fccfb5d665b0e16a4238e5a7c73a37f2712fa2
+  revision: 427fe4a6c5d259631b34ffcad2f9dff5231759e4
   specs:
     actioncable (8.0.0.alpha)
       actionpack (= 8.0.0.alpha)
@@ -203,10 +203,11 @@ GEM
       sorbet-runtime (>= 0.5.9204)
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
-    regexp_parser (2.9.1)
+    regexp_parser (2.9.2)
     reline (0.5.7)
       io-console (~> 0.5)
-    rexml (3.2.6)
+    rexml (3.2.8)
+      strscan (>= 3.0.9)
     rubocop (1.63.5)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
@@ -239,15 +240,15 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11376)
-      sorbet-static (= 0.5.11376)
-    sorbet-runtime (0.5.11376)
-    sorbet-static (0.5.11376-aarch64-linux)
-    sorbet-static (0.5.11376-universal-darwin)
-    sorbet-static (0.5.11376-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11376)
-      sorbet (= 0.5.11376)
-      sorbet-runtime (= 0.5.11376)
+    sorbet (0.5.11380)
+      sorbet-static (= 0.5.11380)
+    sorbet-runtime (0.5.11380)
+    sorbet-static (0.5.11380-aarch64-linux)
+    sorbet-static (0.5.11380-universal-darwin)
+    sorbet-static (0.5.11380-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11380)
+      sorbet (= 0.5.11380)
+      sorbet-runtime (= 0.5.11380)
     spektr (0.4.1)
       erubi
       haml
@@ -289,7 +290,8 @@ GEM
       unicode-display_width (>= 1.5, < 3.0)
       unicode_utils (~> 1.4)
     strings-ansi (0.2.0)
-    tapioca (0.14.1)
+    strscan (3.1.0)
+    tapioca (0.14.2)
       bundler (>= 2.2.25)
       netrc (>= 0.11.0)
       parallel (>= 1.21.0)
