@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 1e026dbf504547654eb03325448a7fffd575f923
+  revision: dd88c7e0d29a39e148aa6ff5412186e679585ae3
   specs:
     actioncable (8.0.0.alpha)
       actionpack (= 8.0.0.alpha)
@@ -167,7 +167,7 @@ GEM
     nokogiri (1.16.5-x86_64-linux)
       racc (~> 1.4)
     parallel (1.24.0)
-    parser (3.3.1.0)
+    parser (3.3.2.0)
       ast (~> 2.4.1)
       racc
     pastel (0.8.0)
@@ -240,15 +240,15 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11394)
-      sorbet-static (= 0.5.11394)
-    sorbet-runtime (0.5.11394)
-    sorbet-static (0.5.11394-aarch64-linux)
-    sorbet-static (0.5.11394-universal-darwin)
-    sorbet-static (0.5.11394-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11394)
-      sorbet (= 0.5.11394)
-      sorbet-runtime (= 0.5.11394)
+    sorbet (0.5.11406)
+      sorbet-static (= 0.5.11406)
+    sorbet-runtime (0.5.11406)
+    sorbet-static (0.5.11406-aarch64-linux)
+    sorbet-static (0.5.11406-universal-darwin)
+    sorbet-static (0.5.11406-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11406)
+      sorbet (= 0.5.11406)
+      sorbet-runtime (= 0.5.11406)
     spektr (0.4.1)
       erubi
       haml
@@ -291,7 +291,7 @@ GEM
       unicode_utils (~> 1.4)
     strings-ansi (0.2.0)
     strscan (3.1.0)
-    tapioca (0.14.2)
+    tapioca (0.14.3)
       bundler (>= 2.2.25)
       netrc (>= 0.11.0)
       parallel (>= 1.21.0)
