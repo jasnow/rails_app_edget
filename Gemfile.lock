@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: d97fb459bd9fa0d67b4909b8a3b87df8b27405fa
+  revision: 8336aa7f0bfb9f87aa510e4e7aeae08a2089d206
   specs:
     actioncable (8.0.0.alpha)
       actionpack (= 8.0.0.alpha)
@@ -354,7 +354,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 3.3.1p55
+   ruby 3.3.2p78
 
 BUNDLED WITH
    2.5.11
