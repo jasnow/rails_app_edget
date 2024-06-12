@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 51f81267f8e2769d847cc563967feffefe6e2beb
+  revision: 2ebb508cd8ee16c0bb280f91b93c01d939fcbf12
   specs:
     actioncable (8.0.0.alpha)
       actionpack (= 8.0.0.alpha)
@@ -175,7 +175,7 @@ GEM
     nokogiri (1.16.5-x86_64-linux)
       racc (~> 1.4)
     parallel (1.25.1)
-    parser (3.3.2.0)
+    parser (3.3.3.0)
       ast (~> 2.4.1)
       racc
     pastel (0.8.0)
@@ -186,7 +186,7 @@ GEM
     puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.8.0)
-    rack (3.1.0)
+    rack (3.1.3)
     rack-session (2.0.0)
       rack (>= 3.0.0)
     rack-test (2.1.0)
@@ -216,7 +216,7 @@ GEM
       io-console (~> 0.5)
     rexml (3.3.0)
       strscan
-    rubocop (1.63.5)
+    rubocop (1.64.1)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
@@ -248,15 +248,15 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11428)
-      sorbet-static (= 0.5.11428)
-    sorbet-runtime (0.5.11428)
-    sorbet-static (0.5.11428-aarch64-linux)
-    sorbet-static (0.5.11428-universal-darwin)
-    sorbet-static (0.5.11428-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11428)
-      sorbet (= 0.5.11428)
-      sorbet-runtime (= 0.5.11428)
+    sorbet (0.5.11429)
+      sorbet-static (= 0.5.11429)
+    sorbet-runtime (0.5.11429)
+    sorbet-static (0.5.11429-aarch64-linux)
+    sorbet-static (0.5.11429-universal-darwin)
+    sorbet-static (0.5.11429-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11429)
+      sorbet (= 0.5.11429)
+      sorbet-runtime (= 0.5.11429)
     spektr (0.4.1)
       erubi
       haml
@@ -280,10 +280,10 @@ GEM
     sqlite3 (1.7.3-arm64-darwin)
     sqlite3 (1.7.3-x86_64-darwin)
     sqlite3 (1.7.3-x86_64-linux)
-    standard (1.36.0)
+    standard (1.37.0)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
-      rubocop (~> 1.63.0)
+      rubocop (~> 1.64.0)
       standard-custom (~> 1.0.0)
       standard-performance (~> 1.4)
     standard-custom (1.0.2)
