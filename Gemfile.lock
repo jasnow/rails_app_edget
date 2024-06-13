@@ -344,7 +344,6 @@ PLATFORMS
   arm64-darwin
   ruby
   universal-darwin
-  x86_64-darwin
   x86_64-darwin-16
   x86_64-linux
   x86_64-linux-gnu
@@ -369,4 +368,4 @@ RUBY VERSION
    ruby 3.3.2p78
 
 BUNDLED WITH
-   2.5.11
+   2.5.12
