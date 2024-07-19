@@ -248,15 +248,15 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11485)
-      sorbet-static (= 0.5.11485)
-    sorbet-runtime (0.5.11485)
-    sorbet-static (0.5.11485-aarch64-linux)
-    sorbet-static (0.5.11485-universal-darwin)
-    sorbet-static (0.5.11485-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11485)
-      sorbet (= 0.5.11485)
-      sorbet-runtime (= 0.5.11485)
+    sorbet (0.5.11487)
+      sorbet-static (= 0.5.11487)
+    sorbet-runtime (0.5.11487)
+    sorbet-static (0.5.11487-aarch64-linux)
+    sorbet-static (0.5.11487-universal-darwin)
+    sorbet-static (0.5.11487-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11487)
+      sorbet (= 0.5.11487)
+      sorbet-runtime (= 0.5.11487)
     spektr (0.4.1)
       erubi
       haml
@@ -344,8 +344,8 @@ PLATFORMS
   arm64-darwin
   ruby
   universal-darwin
+  x86_64-darwin
   x86_64-darwin-16
-  x86_64-linux
   x86_64-linux-gnu
   x86_64-linux-musl
 
@@ -368,4 +368,4 @@ RUBY VERSION
    ruby 3.3.4p94
 
 BUNDLED WITH
-   2.5.15
+   2.5.16
