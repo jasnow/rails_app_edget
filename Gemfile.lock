@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 0b3320bcd5e705302b5707bcf27a80537b812c1f
+  revision: 2038c9d46ab035de31d7a9968b7aa22297b2618a
   specs:
     actioncable (8.0.0.alpha)
       actionpack (= 8.0.0.alpha)
@@ -185,7 +185,7 @@ GEM
       stringio
     puma (6.4.2)
       nio4r (~> 2.0)
-    racc (1.8.0)
+    racc (1.8.1)
     rack (3.1.7)
     rack-session (2.0.0)
       rack (>= 3.0.0)
@@ -248,15 +248,15 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11495)
-      sorbet-static (= 0.5.11495)
-    sorbet-runtime (0.5.11495)
-    sorbet-static (0.5.11495-aarch64-linux)
-    sorbet-static (0.5.11495-universal-darwin)
-    sorbet-static (0.5.11495-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11495)
-      sorbet (= 0.5.11495)
-      sorbet-runtime (= 0.5.11495)
+    sorbet (0.5.11500)
+      sorbet-static (= 0.5.11500)
+    sorbet-runtime (0.5.11500)
+    sorbet-static (0.5.11500-aarch64-linux)
+    sorbet-static (0.5.11500-universal-darwin)
+    sorbet-static (0.5.11500-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11500)
+      sorbet (= 0.5.11500)
+      sorbet-runtime (= 0.5.11500)
     spektr (0.4.1)
       erubi
       haml
@@ -269,7 +269,7 @@ GEM
       tty-spinner
       tty-table
       zeitwerk (>= 2.6)
-    spoom (1.4.0)
+    spoom (1.4.1)
       erubi (>= 1.10.0)
       prism (>= 0.28.0)
       sorbet-static-and-runtime (>= 0.5.10187)
@@ -335,7 +335,7 @@ GEM
     yard-sorbet (0.9.0)
       sorbet-runtime
       yard
-    zeitwerk (2.6.16)
+    zeitwerk (2.6.17)
 
 PLATFORMS
   aarch64-linux
