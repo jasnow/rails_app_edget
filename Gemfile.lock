@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 9a8153c1975a98c30a867dcbbd9b297b152988e7
+  revision: 4a45f3144c680f86655a24d21a9e014f694cca74
   specs:
     actioncable (8.0.0.alpha)
       actionpack (= 8.0.0.alpha)
@@ -70,6 +70,7 @@ GIT
       i18n (>= 1.6, < 2)
       logger (>= 1.4.2)
       minitest (>= 5.1)
+      securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
     rails (8.0.0.alpha)
       actioncable (= 8.0.0.alpha)
@@ -214,7 +215,7 @@ GEM
     regexp_parser (2.9.2)
     reline (0.5.9)
       io-console (~> 0.5)
-    rexml (3.3.2)
+    rexml (3.3.4)
       strscan
     rubocop (1.64.1)
       json (~> 2.3)
@@ -238,6 +239,7 @@ GEM
     ruby_parser (3.21.1)
       racc (~> 1.5)
       sexp_processor (~> 4.16)
+    securerandom (0.3.1)
     sexp_processor (4.17.2)
     simplecov (0.22.0)
       docile (~> 1.1)
@@ -248,15 +250,15 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11501)
-      sorbet-static (= 0.5.11501)
-    sorbet-runtime (0.5.11501)
-    sorbet-static (0.5.11501-aarch64-linux)
-    sorbet-static (0.5.11501-universal-darwin)
-    sorbet-static (0.5.11501-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11501)
-      sorbet (= 0.5.11501)
-      sorbet-runtime (= 0.5.11501)
+    sorbet (0.5.11504)
+      sorbet-static (= 0.5.11504)
+    sorbet-runtime (0.5.11504)
+    sorbet-static (0.5.11504-aarch64-linux)
+    sorbet-static (0.5.11504-universal-darwin)
+    sorbet-static (0.5.11504-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11504)
+      sorbet (= 0.5.11504)
+      sorbet-runtime (= 0.5.11504)
     spektr (0.4.1)
       erubi
       haml
