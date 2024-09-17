@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 7f660a700d828cd9d472b0a57b1e32d7918cd88e
+  revision: 4aa78117fa427ec6d761b81fb1d3877a20703b9e
   specs:
     actioncable (8.0.0.alpha)
       actionpack (= 8.0.0.alpha)
@@ -129,7 +129,7 @@ GEM
       temple (>= 0.8.2)
       thor
       tilt
-    i18n (1.14.5)
+    i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     io-console (0.7.2)
     irb (1.14.0)
@@ -328,7 +328,7 @@ GEM
       tty-screen (~> 0.8)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    unicode-display_width (2.5.0)
+    unicode-display_width (2.6.0)
     unicode_utils (1.4.0)
     uri (0.13.1)
     useragent (0.16.10)
