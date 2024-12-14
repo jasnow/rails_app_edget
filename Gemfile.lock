@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: c22f7f9a4f523e69899d567acc19a0e6eaac3d36
+  revision: 9424179306c9c7eb70d7fa4eca9994c4285e6ac6
   specs:
     actioncable (8.1.0.alpha)
       actionpack (= 8.1.0.alpha)
@@ -198,7 +198,7 @@ GEM
     rbi (0.2.1)
       prism (~> 1.0)
       sorbet-runtime (>= 0.5.9204)
-    rdoc (6.8.1)
+    rdoc (6.9.0)
       psych (>= 4.0.0)
     regexp_parser (2.9.3)
     reline (0.5.12)
@@ -213,7 +213,7 @@ GEM
       rubocop-ast (>= 1.36.2, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.36.2)
+    rubocop-ast (1.37.0)
       parser (>= 3.3.1.0)
     rubocop-performance (1.23.0)
       rubocop (>= 1.48.1, < 2.0)
@@ -235,14 +235,14 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11691)
-      sorbet-static (= 0.5.11691)
-    sorbet-runtime (0.5.11691)
-    sorbet-static (0.5.11691-universal-darwin)
-    sorbet-static (0.5.11691-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11691)
-      sorbet (= 0.5.11691)
-      sorbet-runtime (= 0.5.11691)
+    sorbet (0.5.11694)
+      sorbet-static (= 0.5.11694)
+    sorbet-runtime (0.5.11694)
+    sorbet-static (0.5.11694-universal-darwin)
+    sorbet-static (0.5.11694-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11694)
+      sorbet (= 0.5.11694)
+      sorbet-runtime (= 0.5.11694)
     spektr (0.4.1)
       erubi
       haml
