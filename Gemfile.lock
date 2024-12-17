@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: a26bc53755d05fd3ade367fe58c16bc5a6e98e4a
+  revision: f7ba6c43d67bb847b1d6297e17dc3d37e38ecb71
   specs:
     actioncable (8.1.0.alpha)
       actionpack (= 8.1.0.alpha)
@@ -149,7 +149,7 @@ GEM
     mini_portile2 (2.8.8)
     minitest (5.25.4)
     mutex_m (0.3.0)
-    net-imap (0.5.1)
+    net-imap (0.5.2)
       date
       net-protocol
     net-pop (0.1.2)
@@ -198,10 +198,10 @@ GEM
     rbi (0.2.1)
       prism (~> 1.0)
       sorbet-runtime (>= 0.5.9204)
-    rdoc (6.9.0)
+    rdoc (6.9.1)
       psych (>= 4.0.0)
     regexp_parser (2.9.3)
-    reline (0.5.12)
+    reline (0.6.0)
       io-console (~> 0.5)
     rubocop (1.69.2)
       json (~> 2.3)
@@ -235,14 +235,14 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11694)
-      sorbet-static (= 0.5.11694)
-    sorbet-runtime (0.5.11694)
-    sorbet-static (0.5.11694-universal-darwin)
-    sorbet-static (0.5.11694-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11694)
-      sorbet (= 0.5.11694)
-      sorbet-runtime (= 0.5.11694)
+    sorbet (0.5.11699)
+      sorbet-static (= 0.5.11699)
+    sorbet-runtime (0.5.11699)
+    sorbet-static (0.5.11699-universal-darwin)
+    sorbet-static (0.5.11699-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11699)
+      sorbet (= 0.5.11699)
+      sorbet-runtime (= 0.5.11699)
     spektr (0.4.1)
       erubi
       haml
@@ -343,4 +343,4 @@ RUBY VERSION
    ruby 3.4.0.rc1
 
 BUNDLED WITH
-   2.6.0.dev
+   2.6.0
