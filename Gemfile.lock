@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 2808a5a0ea22d009253b9db1d6d12a03bbfeffbf
+  revision: 6b5c91d2af47c976b57d8a90d372b8ec8fb7c7bd
   specs:
     actioncable (8.1.0.alpha)
       actionpack (= 8.1.0.alpha)
@@ -227,7 +227,7 @@ GEM
     rdoc (6.13.1)
       psych (>= 4.0.0)
     regexp_parser (2.10.0)
-    reline (0.6.0)
+    reline (0.6.1)
       io-console (~> 0.5)
     rubocop (1.73.2)
       json (~> 2.3)
@@ -264,15 +264,15 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.11984)
-      sorbet-static (= 0.5.11984)
-    sorbet-runtime (0.5.11984)
-    sorbet-static (0.5.11984-aarch64-linux)
-    sorbet-static (0.5.11984-universal-darwin)
-    sorbet-static (0.5.11984-x86_64-linux)
-    sorbet-static-and-runtime (0.5.11984)
-      sorbet (= 0.5.11984)
-      sorbet-runtime (= 0.5.11984)
+    sorbet (0.5.11987)
+      sorbet-static (= 0.5.11987)
+    sorbet-runtime (0.5.11987)
+    sorbet-static (0.5.11987-aarch64-linux)
+    sorbet-static (0.5.11987-universal-darwin)
+    sorbet-static (0.5.11987-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11987)
+      sorbet (= 0.5.11987)
+      sorbet-runtime (= 0.5.11987)
     spektr (0.4.1)
       erubi
       haml
@@ -389,4 +389,4 @@ RUBY VERSION
    ruby 3.4.2p28
 
 BUNDLED WITH
-   2.6.6
+   2.6.7
