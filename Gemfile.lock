@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 42a71a03a0adb465dc49b4e21dec8e0ea29e8e35
+  revision: 59a64cd0f5339b78aadc1aa9bd86a5b09c478dc2
   specs:
     actioncable (8.1.0.alpha)
       actionpack (= 8.1.0.alpha)
@@ -218,7 +218,7 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
-    rbi (0.3.1)
+    rbi (0.3.2)
       prism (~> 1.0)
       rbs (>= 3.4.4)
       sorbet-runtime (>= 0.5.9204)
