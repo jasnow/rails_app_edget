@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 722d676f5d66698c703da751621cb516ce1802cc
+  revision: 73761aae49cbefd4d825a7071f0a2fd215ad9740
   specs:
     actioncable (8.1.0.alpha)
       actionpack (= 8.1.0.alpha)
@@ -116,13 +116,13 @@ GEM
     docile (1.4.1)
     drb (2.2.1)
     erubi (1.13.1)
-    ffi (1.17.1)
-    ffi (1.17.1-aarch64-linux-gnu)
-    ffi (1.17.1-aarch64-linux-musl)
-    ffi (1.17.1-arm64-darwin)
-    ffi (1.17.1-x86_64-darwin)
-    ffi (1.17.1-x86_64-linux-gnu)
-    ffi (1.17.1-x86_64-linux-musl)
+    ffi (1.17.2)
+    ffi (1.17.2-aarch64-linux-gnu)
+    ffi (1.17.2-aarch64-linux-musl)
+    ffi (1.17.2-arm64-darwin)
+    ffi (1.17.2-x86_64-darwin)
+    ffi (1.17.2-x86_64-linux-gnu)
+    ffi (1.17.2-x86_64-linux-musl)
     globalid (1.2.1)
       activesupport (>= 6.1)
     haml (6.3.0)
@@ -264,15 +264,15 @@ GEM
     slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
-    sorbet (0.5.12016)
-      sorbet-static (= 0.5.12016)
-    sorbet-runtime (0.5.12016)
-    sorbet-static (0.5.12016-aarch64-linux)
-    sorbet-static (0.5.12016-universal-darwin)
-    sorbet-static (0.5.12016-x86_64-linux)
-    sorbet-static-and-runtime (0.5.12016)
-      sorbet (= 0.5.12016)
-      sorbet-runtime (= 0.5.12016)
+    sorbet (0.5.12017)
+      sorbet-static (= 0.5.12017)
+    sorbet-runtime (0.5.12017)
+    sorbet-static (0.5.12017-aarch64-linux)
+    sorbet-static (0.5.12017-universal-darwin)
+    sorbet-static (0.5.12017-x86_64-linux)
+    sorbet-static-and-runtime (0.5.12017)
+      sorbet (= 0.5.12017)
+      sorbet-runtime (= 0.5.12017)
     spektr (0.4.1)
       erubi
       haml
